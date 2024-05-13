@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking Application</title>
+    <link rel="stylesheet" href="Bankingapp.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="Alienx3.png" alt="Welcome Image" class="logo">
+            <h1>Banking Application</h1>
+        </div>
+    </header>
+    <main>
+
+        <div class="container">
+            <h2>Welcome to AlienXBanker</h2>
+            <form id="userInfoForm">
+                <label for="name">Name (max 8 characters):</label>
+                <input type="text" id="name" name="name" maxlength="8" required>
+                <label for="id">ID (max 8 characters):</label>
+                <input type="text" id="id" name="id" maxlength="8" required>
+                <button type="submit">Submit</button>
+            </form>
+            <div id="menuOptions" style="display: none;">
+                <p>Welcome, <span id="userName"></span>! Your ID: <span id="userID"></span></p>
+                <button id="checkBalanceBtn">Check Balance</button>
+                <button id="depositBtn">Deposit</button>
+                <button id="withdrawBtn">Withdraw</button>
+                <button id="transactionHistoryBtn">Transaction History</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Thank you. Have a nice day!</p>
+    </footer>
+
+    
+    <script src="Bankingapp.js"></script>
+    <a href="file:///C:/Users/owner/OneDrive/Desktop/BankingApplication/exit_page.html">Exit Page</a>
+
+</body>
+</html>

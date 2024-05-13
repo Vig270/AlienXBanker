@@ -1,0 +1,32 @@
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ensures the body takes up the full height of the viewport */
+}
+
+h1, p {
+    border: 2px solid #000000; /* Add border around h1 and p elements */
+    padding: 10px; /* Add padding inside the border */
+    border-radius: 5px; /* Optional: Add rounded corners to the border */
+    background-color: #e6f2ff; /* Add background color inside the rectangle */
+}
+
+h1 {
+    color: #007bff;
+}
+
+p {
+    color: #28a745;
+}
+
+img {
+    display: block;
+    margin: 0 auto; /* Centers the image horizontally */
+}
